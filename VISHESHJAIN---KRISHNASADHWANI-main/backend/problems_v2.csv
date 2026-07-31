@@ -1,0 +1,309 @@
+title,difficulty,topic,statement,constraints,input_format,output_format,starter_python,starter_javascript
+Index Pair With Target Sum,EASY,Arrays,"Given an array of integers and a target value, return the indices of the first pair of elements (in scan order) whose values add up to the target. If no such pair exists, return [-1, -1].","1 <= n <= 1000, values fit in 32-bit signed range.","A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Largest Contiguous Sum,MEDIUM,Arrays,"Given an array of integers, find the largest possible sum of any contiguous (non-empty) subarray.",1 <= n <= 2000.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Rotate Array Right By K,EASY,Arrays,"Given an array and a non-negative integer k, rotate the array to the right by k steps and return the resulting array.","0 <= n <= 20, 0 <= k <= 100.","A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Product Of All Other Elements,MEDIUM,Arrays,"Given an array of integers, return a new array where each element is the product of all elements except itself. Division is not allowed.","1 <= n <= 15, avoid overflow-sensitive assumptions.","A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Kth Largest Element,MEDIUM,Arrays,"Given an array of integers and an integer k, return the kth largest element in the array (1-indexed from the largest).",1 <= k <= n <= 20.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+First Non-Repeating Character,EASY,Strings,"Given a lowercase string, return the index of its first non-repeating character, or -1 if every character repeats.","1 <= |s| <= 200, lowercase letters only.","A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Anagram Check,EASY,Strings,"Given two lowercase strings, determine whether the second is an anagram of the first.",1 <= |s| <= 200.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Longest Common Prefix,EASY,Strings,"Given a list of lowercase words, return the longest string that is a prefix of every word in the list. Return an empty string if none.",1 <= words.length <= 10.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Reverse Word Order,EASY,Strings,"Given a sentence with words separated by single spaces, return a new sentence with the words in reverse order.",1 <= |s| <= 300.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Group Anagrams Together,MEDIUM,Strings,"Given a list of lowercase words, group the words that are anagrams of each other. Return the groups sorted for determinism.",1 <= words.length <= 12.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Middle Of Linked List,EASY,Linked List,"A singly linked list is given as an array of node values in order. Return the value of the middle node (if two middles, the second one).",0 <= n <= 30.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Reverse Linked List,EASY,Linked List,A singly linked list is given as an array of node values. Return the array of values representing the reversed list.,0 <= n <= 30.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Detect Linked List Cycle,MEDIUM,Linked List,A linked list is given as an array of node values plus an index pos indicating where the tail connects back to (or -1 if the list is acyclic). Return true if the list has a cycle.,"0 <= n <= 30, -1 <= pos < n.","A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Remove Nth Node From End,MEDIUM,Linked List,A singly linked list is given as an array. Remove the nth node counting from the end and return the resulting array.,1 <= n <= length.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Balanced Brackets,EASY,Stack,"Given a string containing only the characters ( ) [ ] { }, determine whether the brackets are balanced and properly nested.",1 <= |s| <= 200.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Minimum Value Tracker,MEDIUM,Stack,"A sequence of push/pop operations is applied to a stack. Given the operations in order, return the minimum value remaining on the stack after all operations, or null if the stack ends empty.",1 <= ops.length <= 50.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Next Greater Element,MEDIUM,Stack,"Given an array, for each element find the next element to its right that is strictly greater. If none exists, use -1.",1 <= n <= 20.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Daily Temperature Wait,MEDIUM,Stack,"Given a list of daily temperatures, return for each day how many days you'd have to wait until a warmer temperature. Use 0 if never.",1 <= n <= 20.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+FIFO Queue Simulation,EASY,Queue,A sequence of enqueue/dequeue operations is applied to an initially empty FIFO queue. Return the remaining elements in order after all operations are applied.,1 <= ops.length <= 50.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Sliding Window Maximum,HARD,Queue,"Given an array and a window size k, return an array of the maximum value in every contiguous window of size k as it slides left to right.",1 <= k <= n <= 20.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Binary Tree Max Depth,EASY,Trees,A binary tree is given as a level-order array (null marks a missing child). Return the maximum depth of the tree.,0 <= nodes <= 30.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Binary Tree Inorder Values,EASY,Trees,A binary tree is given as a level-order array (null marks a missing child). Return the values in inorder traversal.,0 <= nodes <= 20.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Check Height-Balanced Tree,MEDIUM,Trees,"A binary tree is given as a level-order array. Return true if for every node, the heights of its left and right subtrees differ by at most 1.",0 <= nodes <= 25.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Level Order Sums,MEDIUM,Trees,"A binary tree is given as a level-order array. Return an array with the sum of node values at each depth level, top to bottom.",0 <= nodes <= 25.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Breadth-First Traversal Order,MEDIUM,Graphs,"Given an undirected graph with n nodes (0-indexed) and a list of edges, return the BFS visiting order starting from a given node (neighbors visited in increasing order).",1 <= n <= 15.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Path Existence Check,EASY,Graphs,"Given an undirected graph with n nodes and a list of edges, determine whether a path exists between two given nodes.",1 <= n <= 15.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Count Connected Components,MEDIUM,Graphs,"Given an undirected graph with n nodes and a list of edges, return the number of connected components.",1 <= n <= 15.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Shortest Path Length (Unweighted),MEDIUM,Graphs,"Given an undirected, unweighted graph with n nodes and a list of edges, return the length of the shortest path between two nodes, or -1 if unreachable.",1 <= n <= 15.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Staircase Step Combinations,EASY,Dynamic Programming,"You are climbing a staircase with n steps, taking either 1 or 2 steps at a time. Return how many distinct ways there are to reach the top.",1 <= n <= 40.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Fewest Coins For Amount,MEDIUM,Dynamic Programming,"Given a list of coin denominations and a target amount, return the minimum number of coins needed to make that amount, or -1 if it cannot be made.",1 <= amount <= 100.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Longest Increasing Subsequence Length,MEDIUM,Dynamic Programming,"Given an array of integers, return the length of the longest strictly increasing subsequence.",1 <= n <= 20.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+0/1 Knapsack Maximum Value,HARD,Dynamic Programming,"Given item weights, item values, and a knapsack capacity, return the maximum total value obtainable without exceeding the capacity, using each item at most once.","1 <= n <= 15, capacity <= 50.","A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Minimum Edit Distance,HARD,Dynamic Programming,"Given two strings, return the minimum number of single-character insertions, deletions, or substitutions to transform the first into the second.","0 <= |a|, |b| <= 15.","A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Maximum Non-Overlapping Activities,MEDIUM,Greedy,"Given a list of [start, end] activity intervals, return the maximum number of activities that can be scheduled without overlap.",1 <= n <= 15.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Greedy Coin Count,EASY,Greedy,"Given a set of coin denominations and an amount, return the number of coins used when always picking the largest denomination first, or -1 if the amount can't be made exactly this way.",1 <= amount <= 200.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Greatest Common Divisor,EASY,Math,"Given two positive integers, return their greatest common divisor.","1 <= a, b <= 10^6.","A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Prime Number Check,EASY,Math,"Given an integer n, return true if it is a prime number.",0 <= n <= 10^5.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Modular Exponentiation,MEDIUM,Math,"Given base, exponent, and modulus, return base^exponent mod modulus efficiently.","0 <= exponent <= 10^5, 1 <= modulus <= 10^9.","A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Count Set Bits,EASY,Math,"Given a non-negative integer, return the number of 1 bits in its binary representation.",0 <= n <= 10^9.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Single Non-Duplicate Number,EASY,Bit Manipulation,"Given an array where every element appears exactly twice except for one, return that single element.","1 <= n <= 21 (odd length), values fit in 32-bit range.","A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+All Subsets Of A Set,MEDIUM,Backtracking,"Given an array of distinct integers, return all possible subsets (the power set), sorted for determinism.",0 <= n <= 8.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Count Total Permutations,EASY,Backtracking,"Given an array of n distinct elements, return the total number of distinct permutations possible.",0 <= n <= 8.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Binary Search In Sorted Array,EASY,Sorting & Searching,"Given a sorted array of distinct integers and a target, return the index of the target, or -1 if not present.",0 <= n <= 30.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
+Sort An Integer Array,EASY,Sorting & Searching,"Given an array of integers, return it sorted in non-decreasing order.",0 <= n <= 30.,"A single line containing a JSON-encoded value: the function argument if there is only one, otherwise a JSON array of the arguments in order.",A single line containing the JSON-encoded expected result.,"def solve():
+    pass
+
+if __name__=='__main__':
+    solve()","function solve(input){
+}
+process.stdin.resume();"
